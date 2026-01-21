@@ -6,12 +6,12 @@
 - Some images of Ghibli Web:
 
  <p align="center">
-  <img src="images/Index.png" width="600">
+  <img src="DDWTPractical5/images/Index.png" width="600">
   <br>
   <sub>Figure 1. Index page of Ghibli Web</sub>
 </p>
 <p align="center">
-  <img src="images/Details.png" width="600">
+  <img src="DDWTPractical5/images/Details.png" width="600">
   <br>
   <sub>Figure 2. Detail page of Ghibli Web</sub>
 </p>
