@@ -56,7 +56,7 @@ WHERE Films.filmID = @0";
                 <hr />
                 <ul class="list-group list-group-flush font-weight-bold">
                     <li class="list-group-item">Director: <span class="bg-warning">@data.personName</span></li>
-                    <li class="list-group-item">Release date: <span class="font-weight-normal font-italic">@data.filmYear.ToString("dd/MM/yyyy")</span></li>
+                    <li class="list-group-item">Release date: <span class="font-weight-normal font-italic">@data.filmYear.ToString("yyyy")</span></li>
                     <li class="list-group-item">Film genre: <span class="font-italic font-weight-normal">@data.filmType</span></li>
                 </ul>
                 <div class="card-body list-group-item-warning">
@@ -68,7 +68,7 @@ WHERE Films.filmID = @0";
                     <i class="bi bi-play-btn-fill mt-1 ml-2 mb-3"></i>
                 </div>
                 
-                <iframe width="560" height="315" src="https:@data.trailer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="@data.trailer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
         </div>
